@@ -12,16 +12,11 @@ buildscript {
         google()
         jcenter()
         maven {
-            url 'https://openrepo.paxengine.com.cn/api/v4/projects/18/packages/maven'
-            name "GitLab"
-            credentials(HttpHeaderCredentials) {
-                name = 'Deploy-Token'
-                value = 'tKxMYSwBrxYcDZyVzZAm'
+            url = uri("https://maven.pkg.github.com/Chenziquan/EasyScan")
+            credentials {
+                username = "Chenziquan"
+                password = "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"
             }
-            authentication {
-                header(HttpHeaderAuthentication)
-            }
-
         }
     }
 }
@@ -31,16 +26,11 @@ allprojects {
         google()
         jcenter()
         maven {
-            url 'https://openrepo.paxengine.com.cn/api/v4/projects/18/packages/maven'
-            name "GitLab"
-            credentials(HttpHeaderCredentials) {
-                name = 'Deploy-Token'
-                value = 'tKxMYSwBrxYcDZyVzZAm'
+            url = uri("https://maven.pkg.github.com/Chenziquan/EasyScan")
+            credentials {
+                username = "Chenziquan"
+                password = "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"
             }
-            authentication {
-                header(HttpHeaderAuthentication)
-            }
-
         }
     }
 }
@@ -49,7 +39,7 @@ allprojects {
 build.gradle of module.
 
 ```groovy
-implementation 'com.pax.jc:easy-scan:1.0.0'
+implementation 'com.pax.jc:easy-scan:1.0.2'
 ```
 
 # Sample
