@@ -1,0 +1,4 @@
+<resources>
+    <string name="camera_permission_denied">Camera permission is required to scan QR codes. Please try again.</string>
+    <string name="scanner_label">Scan QR code.</string>
+</resources>

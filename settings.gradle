@@ -1,0 +1,3 @@
+include ':easyscan'
+include ':Sample'
+rootProject.name = "EasyScan"

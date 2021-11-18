@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PublicProject</string>
+    <string name="scan_qrcode">Scan QRCode</string>
+</resources>
