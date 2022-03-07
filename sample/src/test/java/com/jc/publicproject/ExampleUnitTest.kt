@@ -1,4 +1,4 @@
-package com.pax.jc.easyscan
+package com.jc.publicproject
 
 import org.junit.Test
 

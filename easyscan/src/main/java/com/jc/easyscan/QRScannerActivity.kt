@@ -1,4 +1,4 @@
-package com.pax.jc.easyscan
+package com.jc.easyscan
 
 import android.Manifest
 import android.app.Activity

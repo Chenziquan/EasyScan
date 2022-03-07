@@ -39,7 +39,7 @@ allprojects {
 build.gradle of module.
 
 ```groovy
-implementation 'com.pax.jc:easy-scan:1.0.2'
+implementation 'com.jc:easy-scan:1.0.2'
 ```
 
 # Sample
